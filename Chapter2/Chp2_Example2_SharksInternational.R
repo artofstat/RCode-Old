@@ -1,16 +1,22 @@
-##########################################################
-## R code to reproduce statistial analysis in the textbook
+#############################################################
+## R code to reproduce statistical analysis in the textbook:
 ## Agresti, Franklin, Klingenberg
 ## Statistics: The Art & Science of Learning from Data
 ## 4th Edition, Pearson 2017
 ## Web: ArtofStat.com
 ## Copyright: Bernhard Klingenberg
-#########################################################
+############################################################
 
 ###################
 ###  Chapter 2  ###
 ###  Example 2  ###
 ###################
+
+
+#####################
+## Displaying Data ##
+#####################
+
 
 # Create dataset:
 Region <- c('Florida', 'Hawaii', 'South Carolina', 'California', 'North Carolina', 'Australia', 'South Africa', 'Reunion Island', 'Brazil', 'Bahamas', 'Other')
