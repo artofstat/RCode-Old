@@ -22,5 +22,5 @@ Sodium <- c(0, 340, 70, 140, 200, 180, 210, 150, 100, 130, 140, 180, 190, 160,29
 # Basic Stem & Leaf Plot:
 stem(Sodium)
 
-# More apprpriate (the one from the book):
+# More appropriate (the one from the book):
 stem(Sodium, scale=10)
