@@ -38,5 +38,5 @@ ggplot(data=temps, aes(x=YEAR, y=ANNUAL)) +
   geom_smooth(col='red', fill='orange') +
   labs(y='Average Temperature', title='Annual Average Temperature in Central Park (1869-2017)') +
   scale_x_continuous(breaks=seq(min(YEAR),max(YEAR),10)) +
-  theme_minimal() +
+  theme_bw() +
   theme(panel.grid.minor.x=element_blank())
