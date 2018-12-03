@@ -1,0 +1,15 @@
+---
+title: "null"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(tidy=TRUE)
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=60))
+``````
+
+![](https://raw.githubusercontent.com/artofstat/RCode/master/Chapter2/Heading_Chapter2.PNG)
